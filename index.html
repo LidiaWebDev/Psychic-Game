@@ -2,12 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
-    <script src = "Desktop/Psychic-Game/assets/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <script type = "text/javascript" src="assets/javascript/game.js"></script>
     
     <title>PsychicGame</title>
 </head>
-<body src="assets/images/cube-447989_640.jpg">
+<body onkeypress="keyPress (event)" >
+
+<div class="header">
+                    
+<h1>Guess the letter!</h1>
+</div>
+
+    <div class="section">
+    
+       
+                                    
+<p>Write a letter and see if you guessed right!</p>
+<div class="form-group">
+
+<ul class="Game">
+     <li class="thegame-option">
+     <span id="wins">Wins:</span>
+    </li>
+    <li class="thegame-option">
+    <span id="losses">Losses:</span>
+    </li>
+    <li class="thegame-option">
+    <span id="guessesLeft">Guesses Left:</span>
+    </li>
+    <li class="thegame-option">
+    <span id="yourGuesses">Your Guesses So Far:</span>
+    </li>
+                               
+</div>
+</div>   
+</div>
+
 
     
     <!-- Guess what letter I'm thinking of
@@ -19,12 +50,19 @@
     When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins). -->
     
     <!-- I need a computer to make a choice -->
-    <!-- I need a user to input his answer, all together he can imput 6 times ( 6 guesses) -->
+    <!-- I need a user to input his answer, all together he can input 6 times ( 6 guesses) -->
     <!-- Capture the choices -->
     <!-- Compare, determine a win or loss -->
     <!-- Display the resuls to the user -->
     
 </body>
+ 
+<footer>
+
+<div class="footer">
+        <p>&copy;Copyright</p>
+   </div>
+</footer>
 
 
 
