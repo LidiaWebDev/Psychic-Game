@@ -1,69 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <script type = "text/javascript" src="assets/javascript/game.js"></script>
-    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+
+
     <title>PsychicGame</title>
 </head>
-<body onkeypress="keyPress (event)" >
 
-<div class="header">
-                    
-<h1>Guess the letter!</h1>
-</div>
+<body onkeypress="keyPress(event)">
 
-    <div class="section">
+    <div class="header">
     
-       
-                                    
-<p>Write a letter and see if you guessed right!</p>
-<div class="form-group">
 
-<ul class="Game">
-     <li class="thegame-option">
-     <span id="wins">Wins:</span>
-    </li>
-    <li class="thegame-option">
-    <span id="losses">Losses:</span>
-    </li>
-    <li class="thegame-option">
-    <span id="guessesLeft">Guesses Left:</span>
-    </li>
-    <li class="thegame-option">
-    <span id="yourGuesses">Your Guesses So Far:</span>
-    </li>
-                               
-</div>
-</div>   
-</div>
+        <h1>Guess the letter!</h1>
+    </div>
+
+    <div class="gamesection">
+
+        <p>Write a letter and see if you guessed right!</p>
 
 
-    
-    <!-- Guess what letter I'm thinking of
-    Wins: (# of times the user has guessed the letter correctly)
-    Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
-    Guesses Left: (# of guesses left. This will update)
-    Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
-    When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
-    When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins). -->
-    
-    <!-- I need a computer to make a choice -->
-    <!-- I need a user to input his answer, all together he can input 6 times ( 6 guesses) -->
-    <!-- Capture the choices -->
-    <!-- Compare, determine a win or loss -->
-    <!-- Display the resuls to the user -->
-    
+        <ul class="Gamxe">
+            <li class="thegame-option">
+                <span id="wins">Wins:</span>
+            </li>
+            <li class="thegame-option">
+                <span id="losses">Losses:</span>
+            </li>
+            <li class="thegame-option">
+                <span id="guessesLeft">Guesses-Left:</span>
+            </li>
+            <li class="thegame-option">
+                <span id="yourGuessesSoFar">Your Guesses So Far:</span>
+            </li>
+
+    </div>
+    </div>
+
+
+
+
+    <footer>
+
+        <div class="footer">
+            <p>&copy;Copyright</p>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
- 
-<footer>
-
-<div class="footer">
-        <p>&copy;Copyright</p>
-   </div>
-</footer>
-
-
 
 </html>
